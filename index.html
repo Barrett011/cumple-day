@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Feliz Cumpleaños</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>🎉 Feliz Cumpleaños, Day 🎂</h1>
+  <div class="cake" onclick="showMessage(); launchConfetti();">
+    <div class="layer layer-bottom"></div>
+    <div class="layer layer-middle"></div>
+    <div class="layer layer-top"></div>
+    <div class="icing"></div>
+    <div class="sprinkles"></div>
+    <div class="candles">
+      <div class="candle"><div class="flame"></div></div>
+      <div class="candle"><div class="flame"></div></div>
+      <div class="candle"><div class="flame"></div></div>
+    </div>
+  </div>
+
+  <div id="popup" class="popup">
+    💖 Espero que seas muy feliz durante tu día, y el resto de días que vengas. <br>
+    Quisiera poder acompañarte durante muchos más y que sepas que seguiré estando para ti, no importa el lugar <br>
+    o la forma, y que siempre seré tuyo por completo, incluso si es algo que tú ya no quieres. <br>
+    Que sepas que te amo como no te imaginas, y nada me hace más feliz que seguir intentando crear más de tu felicidad.💖
+  </div>
+  <div class="spotify-player">
+  <iframe data-testid="embed-iframe" style="border-radius:12px" 
+    src="https://open.spotify.com/embed/playlist/4tdAvZIZ5QdgXuUcGOhFxv?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" 
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+    loading="lazy">
+  </iframe>
+</div>
+
+  <canvas id="confetti" class="confetti-canvas"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
